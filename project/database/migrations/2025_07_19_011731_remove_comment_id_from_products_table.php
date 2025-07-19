@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('products', function (Blueprint $table) {
-            // Only drop the column since foreign key constraint was never created
-            $table->dropColumn('comment_id');
-        });
+        // Schema::table('products', function (Blueprint $table) {
+        //     // Only drop the column since foreign key constraint was never created
+        //     $table->dropColumn('comment_id');
+        // });
     }
 
     /**
