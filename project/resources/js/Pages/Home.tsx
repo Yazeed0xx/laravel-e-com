@@ -14,12 +14,10 @@ export default function Home({ products = [] }: HomeProps) {
 
     const handleAddToCart = (product: ProductCardData) => {
         console.log('Adding to cart:', product);
-        // TODO: Implement cart functionality
     };
 
     const handleToggleWishlist = (product: ProductCardData) => {
         console.log('Toggle wishlist:', product);
-        // TODO: Implement wishlist functionality
     };
 
     return (
